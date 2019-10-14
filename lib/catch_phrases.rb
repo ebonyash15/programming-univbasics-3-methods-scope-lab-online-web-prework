@@ -8,7 +8,8 @@ def toadstool
 end
 def link
   warning = "It's Dangerous To Go Alone! Take This."
-  p "#{warning}"
+  puts warning
+  warning
 end
 def any_phrase(phrase)
       p "#{phrase}"
