@@ -7,7 +7,8 @@ def toadstool
   puts status
 end
 def link
-  p "It's Dangerous To Go Alone! Take This."
+  warning = "It's Dangerous To Go Alone! Take This."
+  p "#{warning}"
 end
 def any_phrase(phrase)
       p "#{phrase}"
